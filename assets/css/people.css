@@ -1,0 +1,14 @@
+/* استایل‌های مخصوص بخش اشخاص */
+.menu-item.has-submenu .submenu {
+    display: none;
+}
+.menu-item.has-submenu.active .submenu {
+    display: block;
+}
+.menu-item.has-submenu .submenu a {
+    color: #333;
+}
+.menu-item.has-submenu .submenu a.active {
+    background-color: #f0f0f0;
+    color: #000;
+}
