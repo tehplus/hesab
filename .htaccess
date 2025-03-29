@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /your-project/
+RewriteRule ^css/(.*)$ assets/css/$1 [L]
+RewriteRule ^js/(.*)$ assets/js/$1 [L]
